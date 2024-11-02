@@ -2,9 +2,9 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>zabbum.oelremakecomponents</groupId>
+  <groupId>com.github.zabbum.oelremakecomponents</groupId>
   <artifactId>oel-remake-components</artifactId>
-  <version>0.1</version>
+  <version>0.1.1</version>
 
   <name>oel-remake-components</name>
   <url>https://github.com/Zabbum/oel-remake-components</url>
