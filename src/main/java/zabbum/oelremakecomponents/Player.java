@@ -19,7 +19,7 @@ public class Player {
     private int debt;
 
     // Constructor
-    Player(final String name) {
+    public Player(final String name) {
         this.balance = 124321;
         this.name = name;
         this.debt = 0;
