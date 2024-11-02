@@ -4,7 +4,7 @@
 
   <groupId>zabbum.oelremakecomponents</groupId>
   <artifactId>oel-remake-components</artifactId>
-  <version>${versionvar}</version>
+  <version>0.1</version>
 
   <name>oel-remake-components</name>
   <url>https://github.com/Zabbum/oel-remake-components</url>
@@ -25,25 +25,6 @@
 
   <build>
     <plugins>
-      <plugin>
-        <groupId>org.codehaus.mojo</groupId>
-        <artifactId>properties-maven-plugin</artifactId>
-        <version>1.2.1</version>
-        <executions>
-          <execution>
-            <phase>initialize</phase>
-            <goals>
-              <goal>read-project-properties</goal>
-            </goals>
-            <configuration>
-              <files>
-                <file>src/main/resources/version.properties</file>
-              </files>
-            </configuration>
-          </execution>
-        </executions>
-      </plugin>
-
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
