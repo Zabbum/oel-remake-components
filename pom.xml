@@ -4,7 +4,8 @@
 
     <groupId>com.github.Zabbum</groupId>
     <artifactId>oel-remake-components</artifactId>
-    <version>0.1.5</version>
+    <version>0.1.6</version>
+    <packaging>jar</packaging>
 
     <name>oel-remake-components</name>
     <url>https://github.com/Zabbum/oel-remake-components</url>
@@ -48,7 +49,6 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-javadoc-plugin</artifactId>
-                <version>3.8.0</version>
                 <executions>
                     <execution>
                         <id>attach-javadocs</id>
