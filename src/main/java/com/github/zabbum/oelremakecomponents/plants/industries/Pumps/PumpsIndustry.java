@@ -1,6 +1,6 @@
-package zabbum.oelremakecomponents.plants.industries.Pumps;
+package com.github.zabbum.oelremakecomponents.plants.industries.Pumps;
 
-import zabbum.oelremakecomponents.plants.industries.AbstractIndustry;
+import com.github.zabbum.oelremakecomponents.plants.industries.AbstractIndustry;
 
 import java.util.Random;
 

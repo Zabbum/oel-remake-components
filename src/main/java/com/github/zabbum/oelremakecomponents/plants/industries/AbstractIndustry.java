@@ -1,8 +1,8 @@
-package zabbum.oelremakecomponents.plants.industries;
+package com.github.zabbum.oelremakecomponents.plants.industries;
 
 import lombok.Getter;
 import lombok.Setter;
-import zabbum.oelremakecomponents.plants.AbstractPlant;
+import com.github.zabbum.oelremakecomponents.plants.AbstractPlant;
 
 @Getter
 @Setter

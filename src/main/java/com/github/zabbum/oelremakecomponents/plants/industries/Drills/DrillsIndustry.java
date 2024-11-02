@@ -1,6 +1,6 @@
-package zabbum.oelremakecomponents.plants.industries.Drills;
+package com.github.zabbum.oelremakecomponents.plants.industries.Drills;
 
-import zabbum.oelremakecomponents.plants.industries.AbstractIndustry;
+import com.github.zabbum.oelremakecomponents.plants.industries.AbstractIndustry;
 
 import java.util.Random;
 

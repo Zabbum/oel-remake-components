@@ -1,11 +1,10 @@
-package zabbum.oelremakecomponents.plants.industries.Cars;
+package com.github.zabbum.oelremakecomponents.plants.industries.Cars;
 
-import zabbum.oelremakecomponents.plants.industries.AbstractIndustry;
+import com.github.zabbum.oelremakecomponents.plants.industries.AbstractIndustry;
 
 import java.util.Random;
 
 public class CarsIndustry extends AbstractIndustry {
-
     /**
      * Constructor of a cars' industry.
      *

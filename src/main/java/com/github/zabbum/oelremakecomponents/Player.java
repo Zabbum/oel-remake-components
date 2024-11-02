@@ -1,4 +1,4 @@
-package zabbum.oelremakecomponents;
+package com.github.zabbum.oelremakecomponents;
 
 import lombok.Data;
 
