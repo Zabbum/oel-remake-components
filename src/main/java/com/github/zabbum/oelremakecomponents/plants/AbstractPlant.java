@@ -29,12 +29,14 @@ public abstract class AbstractPlant {
     protected Player ownership;
 
     /**
-     * Constructor of a Plant.
+     * Constructor of a plant.
      *
      * @param name Name of a plant
+     * @param plantId ID of a plant
      */
-    public AbstractPlant(String name) {
+    public AbstractPlant(final String name, final Integer plantId) {
         this.name = name;
+        this.plantId = plantId;
         this.ownership = null;
     }
 

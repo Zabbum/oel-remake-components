@@ -25,7 +25,11 @@ public class Player {
      */
     private int debt;
 
-    // Constructor
+    /**
+     * Constructor of Player
+     * @param name Name of Player
+     * @param playerId ID of player
+     */
     public Player(final String name, final Integer playerId) {
         this.playerId = playerId;
         this.balance = 124321;

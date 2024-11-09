@@ -28,12 +28,13 @@ public abstract class AbstractIndustry extends AbstractPlant {
     protected double productPrice;
 
     /**
-     * Constructor of a Plant.
+     * Constructor of an industry.
      *
      * @param name Name of a plant
+     * @param plantId ID of a plant
      */
-    public AbstractIndustry(String name) {
-        super(name);
+    public AbstractIndustry(final String name, final Integer plantId) {
+        super(name, plantId);
         maxProductPrice = 0;
     }
 
