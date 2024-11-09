@@ -7,6 +7,10 @@ import lombok.Data;
  */
 @Data
 public class Player {
+    /**
+     * ID of the player
+     */
+    private Integer playerId;
 
     /**
      * Name of the player.
@@ -22,7 +26,8 @@ public class Player {
     private int debt;
 
     // Constructor
-    public Player(final String name) {
+    public Player(final String name, final Integer playerId) {
+        this.playerId = playerId;
         this.balance = 124321;
         this.name = name;
         this.debt = 0;

@@ -11,6 +11,11 @@ import com.github.zabbum.oelremakecomponents.Player;
 @Setter
 public abstract class AbstractPlant {
     /**
+     * ID of the plant
+     */
+    protected Integer plantId;
+
+    /**
      * Name of plant
      */
     protected String name;
