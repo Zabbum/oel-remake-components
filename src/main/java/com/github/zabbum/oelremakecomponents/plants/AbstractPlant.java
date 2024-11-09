@@ -4,6 +4,9 @@ import lombok.Getter;
 import lombok.Setter;
 import com.github.zabbum.oelremakecomponents.Player;
 
+/**
+ * Abstract plant class
+ */
 @Getter
 @Setter
 public abstract class AbstractPlant {

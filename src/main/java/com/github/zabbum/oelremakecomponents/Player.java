@@ -2,6 +2,9 @@ package com.github.zabbum.oelremakecomponents;
 
 import lombok.Data;
 
+/**
+ * Player class
+ */
 @Data
 public class Player {
 

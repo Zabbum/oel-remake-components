@@ -1,10 +1,11 @@
 package com.github.zabbum.oelremakecomponents.plants.industries;
 
-import com.github.zabbum.oelremakecomponents.interfaces.BuyableIndustry;
-
 import java.util.Random;
 
-public class PumpsIndustry extends AbstractIndustry implements BuyableIndustry {
+/**
+ * Pumps industry class
+ */
+public class PumpsIndustry extends AbstractIndustry {
 
     /**
      * Constructor of a pumps' industry.

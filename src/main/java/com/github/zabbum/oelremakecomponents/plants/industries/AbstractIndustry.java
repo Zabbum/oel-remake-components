@@ -4,6 +4,9 @@ import com.github.zabbum.oelremakecomponents.plants.AbstractPlant;
 import lombok.Getter;
 import lombok.Setter;
 
+/**
+ * Abstract industry class (AbstractPlant with extra steps)
+ */
 @Getter
 @Setter
 // and make AbstractIndustry and Oilfield extend that class
