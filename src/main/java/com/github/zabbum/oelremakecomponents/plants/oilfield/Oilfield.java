@@ -71,9 +71,10 @@ public class Oilfield extends AbstractPlant {
      * Constructor of a Plant.
      *
      * @param name Name of a plant
+     * @param plantId ID of a plant
      */
-    public Oilfield(String name) {
-        super(name);
+    public Oilfield(final String name, final Integer plantId) {
+        super(name, plantId);
 
         Random random = new Random();
 

@@ -11,9 +11,10 @@ public class PumpsIndustry extends AbstractIndustry {
      * Constructor of a pumps' industry.
      *
      * @param name name of the industry
+     * @param plantId ID of a plant
      */
-    public PumpsIndustry(final String name) {
-        super(name);
+    public PumpsIndustry(final String name, final Integer plantId) {
+        super(name, plantId);
         this.maxProductPrice = 50000;
 
         Random random = new Random();
