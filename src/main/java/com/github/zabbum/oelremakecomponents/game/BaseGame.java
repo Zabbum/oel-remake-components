@@ -31,6 +31,11 @@ public class BaseGame {
     private Integer roundCount;
 
     /**
+     * Current round
+     */
+    private Integer currentRound;
+
+    /**
      * Amount of players in the game
      */
     private Integer playersAmount;
@@ -109,6 +114,7 @@ public class BaseGame {
             return 0;
         }
 
+        this.currentRound++;
         return ++currentPlayerTurn;
     }
 }
