@@ -8,6 +8,11 @@ import java.util.Random;
 public class DrillsIndustry extends AbstractIndustry implements BuyableIndustry {
 
     /**
+     * Max product price (this should be changed in every class extending AbstractIndustry).
+     */
+    public static final int maxProductPrice = 60000;
+
+    /**
      * Constructor of a drills' industry.
      *
      * @param name name of the industry

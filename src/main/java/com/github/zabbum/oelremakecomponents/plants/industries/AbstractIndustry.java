@@ -1,15 +1,18 @@
 package com.github.zabbum.oelremakecomponents.plants.industries;
 
+import com.github.zabbum.oelremakecomponents.plants.AbstractPlant;
 import lombok.Getter;
 import lombok.Setter;
-import com.github.zabbum.oelremakecomponents.plants.AbstractPlant;
 
 @Getter
 @Setter
 // and make AbstractIndustry and Oilfield extend that class
 public abstract class AbstractIndustry extends AbstractPlant {
 
-
+    /**
+     * Max product price (this should be changed in every class extending AbstractIndustry).
+     */
+    public static final int maxProductPrice = 0;
     /**
      * Products amount in industry
      */

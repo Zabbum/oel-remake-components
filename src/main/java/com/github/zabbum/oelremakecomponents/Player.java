@@ -6,6 +6,10 @@ import lombok.Data;
 public class Player {
 
     /**
+     * ID of the player (Probably index in List)
+     */
+    private int id;
+    /**
      * Name of the player.
      */
     private String name;
@@ -19,7 +23,8 @@ public class Player {
     private int debt;
 
     // Constructor
-    public Player(final String name) {
+    public Player(final int id, final String name) {
+        this.id = id;
         this.balance = 124321;
         this.name = name;
         this.debt = 0;

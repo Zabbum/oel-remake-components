@@ -6,6 +6,12 @@ import com.github.zabbum.oelremakecomponents.plants.industries.AbstractIndustry;
 import java.util.Random;
 
 public class CarsIndustry extends AbstractIndustry implements BuyableIndustry {
+
+    /**
+     * Max product price (this should be changed in every class extending AbstractIndustry).
+     */
+    public static final int maxProductPrice = 50000;
+
     /**
      * Constructor of a cars' industry.
      *
