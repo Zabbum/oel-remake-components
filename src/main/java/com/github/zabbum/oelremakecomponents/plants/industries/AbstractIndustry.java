@@ -8,7 +8,16 @@ import com.github.zabbum.oelremakecomponents.plants.AbstractPlant;
 @Setter
 // and make AbstractIndustry and Oilfield extend that class
 public abstract class AbstractIndustry extends AbstractPlant {
+
+
+    /**
+     * Products amount in industry
+     */
     protected int productsAmount;
+
+    /**
+     * Price of products
+     */
     protected double productPrice;
 
     /**
