@@ -7,8 +7,17 @@ import com.github.zabbum.oelremakecomponents.Player;
 @Getter
 @Setter
 public abstract class AbstractPlant {
+    /**
+     * Name of plant
+     */
     protected String name;
+    /**
+     * Price of plant
+     */
     protected int plantPrice;
+    /**
+     * Ownership of plant
+     */
     protected Player ownership;
 
     /**

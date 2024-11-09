@@ -1,5 +1,6 @@
 package com.github.zabbum.oelremakecomponents.plants.oilfield;
 
+import com.github.zabbum.oelremakecomponents.interfaces.BuyablePlant;
 import lombok.Getter;
 import lombok.Setter;
 import com.github.zabbum.oelremakecomponents.plants.AbstractPlant;
@@ -11,7 +12,7 @@ import java.util.Random;
 
 @Getter
 @Setter
-public class Oilfield extends AbstractPlant {
+public class Oilfield extends AbstractPlant implements BuyablePlant {
 
     /**
      * Total oil amount in oilfield.
