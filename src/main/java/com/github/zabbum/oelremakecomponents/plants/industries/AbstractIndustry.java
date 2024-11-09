@@ -12,7 +12,8 @@ public abstract class AbstractIndustry extends AbstractPlant {
     /**
      * Max product price (this should be changed in every class extending AbstractIndustry).
      */
-    public static final int maxProductPrice = 0;
+    protected int maxProductPrice;
+
     /**
      * Products amount in industry
      */
@@ -30,6 +31,7 @@ public abstract class AbstractIndustry extends AbstractPlant {
      */
     public AbstractIndustry(String name) {
         super(name);
+        maxProductPrice = 0;
     }
 
     /**

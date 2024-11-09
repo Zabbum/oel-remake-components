@@ -4,9 +4,9 @@ import com.github.zabbum.oelremakecomponents.interfaces.BuyablePlant;
 import lombok.Getter;
 import lombok.Setter;
 import com.github.zabbum.oelremakecomponents.plants.AbstractPlant;
-import com.github.zabbum.oelremakecomponents.plants.industries.Cars.CarsIndustry;
-import com.github.zabbum.oelremakecomponents.plants.industries.Drills.DrillsIndustry;
-import com.github.zabbum.oelremakecomponents.plants.industries.Pumps.PumpsIndustry;
+import com.github.zabbum.oelremakecomponents.plants.industries.CarsIndustry;
+import com.github.zabbum.oelremakecomponents.plants.industries.DrillsIndustry;
+import com.github.zabbum.oelremakecomponents.plants.industries.PumpsIndustry;
 
 import java.util.Random;
 
@@ -130,8 +130,6 @@ public class Oilfield extends AbstractPlant implements BuyablePlant {
             this.drillsAmount += 500 * productsAmount;
         } else if (industryType.equals(PumpsIndustry.class)) {
             this.pumpsAmount += productsAmount;
-        } else {
-            return;
         }
     }
 }

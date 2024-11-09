@@ -1,16 +1,10 @@
-package com.github.zabbum.oelremakecomponents.plants.industries.Drills;
+package com.github.zabbum.oelremakecomponents.plants.industries;
 
 import com.github.zabbum.oelremakecomponents.interfaces.BuyableIndustry;
-import com.github.zabbum.oelremakecomponents.plants.industries.AbstractIndustry;
 
 import java.util.Random;
 
 public class DrillsIndustry extends AbstractIndustry implements BuyableIndustry {
-
-    /**
-     * Max product price (this should be changed in every class extending AbstractIndustry).
-     */
-    public static final int maxProductPrice = 60000;
 
     /**
      * Constructor of a drills' industry.
@@ -19,6 +13,7 @@ public class DrillsIndustry extends AbstractIndustry implements BuyableIndustry 
      */
     public DrillsIndustry(final String name) {
         super(name);
+        this.maxProductPrice = 60000;
 
         Random random = new Random();
 
