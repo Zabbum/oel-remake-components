@@ -1,5 +1,6 @@
 package com.github.zabbum.oelremakecomponents.plants.oilfield;
 
+import com.github.zabbum.oelremakecomponents.plants.industries.AbstractIndustry;
 import lombok.Getter;
 import lombok.Setter;
 import com.github.zabbum.oelremakecomponents.plants.AbstractPlant;
@@ -125,7 +126,7 @@ public class Oilfield extends AbstractPlant {
      * @param productsAmount amount of prodduct produced by the industry
      */
     public void addProductAmount(
-            final Class<?> industryType, final int productsAmount) {
+            final Class<? extends AbstractIndustry> industryType, final int productsAmount) {
         if (industryType.equals(CarsIndustry.class)) {
             this.carsAmount += productsAmount;
         } else if (industryType.equals(DrillsIndustry.class)) {
