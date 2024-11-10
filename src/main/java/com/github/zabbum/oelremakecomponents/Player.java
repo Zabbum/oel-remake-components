@@ -1,10 +1,12 @@
 package com.github.zabbum.oelremakecomponents;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 
 /**
  * Player class
  */
+@AllArgsConstructor
 @Data
 public class Player {
     /**
