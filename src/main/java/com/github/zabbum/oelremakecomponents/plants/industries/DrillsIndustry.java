@@ -1,10 +1,15 @@
 package com.github.zabbum.oelremakecomponents.plants.industries;
 
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
+
 import java.util.Random;
 
 /**
  * Drills industry class
  */
+@NoArgsConstructor
+@AllArgsConstructor
 public class DrillsIndustry extends AbstractIndustry {
 
     /**

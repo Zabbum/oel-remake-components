@@ -7,9 +7,9 @@ import lombok.NoArgsConstructor;
 /**
  * Player class
  */
+@Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Data
 public class Player {
     /**
      * ID of the player

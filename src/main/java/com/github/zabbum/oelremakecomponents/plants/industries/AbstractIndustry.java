@@ -1,14 +1,15 @@
 package com.github.zabbum.oelremakecomponents.plants.industries;
 
 import com.github.zabbum.oelremakecomponents.plants.AbstractPlant;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
 /**
  * Abstract industry class (AbstractPlant with extra steps)
  */
-@Getter
-@Setter
+@EqualsAndHashCode(callSuper = true)
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 // and make AbstractIndustry and Oilfield extend that class
 public abstract class AbstractIndustry extends AbstractPlant {
 

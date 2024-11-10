@@ -1,14 +1,14 @@
 package com.github.zabbum.oelremakecomponents.plants;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 import com.github.zabbum.oelremakecomponents.Player;
 
 /**
  * Abstract plant class
  */
-@Getter
-@Setter
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 public abstract class AbstractPlant {
     /**
      * ID of the plant

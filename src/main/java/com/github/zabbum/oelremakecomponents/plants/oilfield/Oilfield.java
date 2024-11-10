@@ -1,8 +1,7 @@
 package com.github.zabbum.oelremakecomponents.plants.oilfield;
 
 import com.github.zabbum.oelremakecomponents.plants.industries.AbstractIndustry;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 import com.github.zabbum.oelremakecomponents.plants.AbstractPlant;
 import com.github.zabbum.oelremakecomponents.plants.industries.CarsIndustry;
 import com.github.zabbum.oelremakecomponents.plants.industries.DrillsIndustry;
@@ -13,8 +12,10 @@ import java.util.Random;
 /**
  * Oilfield plant class
  */
-@Getter
-@Setter
+@EqualsAndHashCode(callSuper = true)
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class Oilfield extends AbstractPlant {
 
     /**
