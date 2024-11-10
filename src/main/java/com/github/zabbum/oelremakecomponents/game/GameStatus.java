@@ -1,5 +1,19 @@
 package com.github.zabbum.oelremakecomponents.game;
 
+/**
+ * Current game statuses
+ */
 public enum GameStatus {
-    NEW, IN_PROGRESS, FINISHED
+    /**
+     * Freshly created game
+     */
+    NEW,
+    /**
+     * Game is in progress
+     */
+    IN_PROGRESS,
+    /**
+     * Game has been finished
+     */
+    FINISHED
 }

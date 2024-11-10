@@ -15,7 +15,6 @@ import java.util.Random;
 @EqualsAndHashCode(callSuper = true)
 @Data
 @NoArgsConstructor
-@AllArgsConstructor
 public class Oilfield extends AbstractPlant {
 
     /**

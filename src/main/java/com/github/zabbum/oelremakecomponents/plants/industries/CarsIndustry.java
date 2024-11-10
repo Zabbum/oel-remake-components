@@ -1,6 +1,7 @@
 package com.github.zabbum.oelremakecomponents.plants.industries;
 
-import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
 import java.util.Random;
@@ -8,8 +9,9 @@ import java.util.Random;
 /**
  * Cars industry class
  */
+@EqualsAndHashCode(callSuper = true)
+@Data
 @NoArgsConstructor
-@AllArgsConstructor
 public class CarsIndustry extends AbstractIndustry{
 
     /**

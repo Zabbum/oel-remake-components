@@ -1,6 +1,5 @@
 package com.github.zabbum.oelremakecomponents;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -9,7 +8,6 @@ import lombok.NoArgsConstructor;
  */
 @Data
 @NoArgsConstructor
-@AllArgsConstructor
 public class Player {
     /**
      * ID of the player

@@ -8,7 +8,6 @@ import com.github.zabbum.oelremakecomponents.Player;
  */
 @Data
 @NoArgsConstructor
-@AllArgsConstructor
 public abstract class AbstractPlant {
     /**
      * ID of the plant

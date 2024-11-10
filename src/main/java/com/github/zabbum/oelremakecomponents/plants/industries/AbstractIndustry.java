@@ -9,7 +9,6 @@ import lombok.*;
 @EqualsAndHashCode(callSuper = true)
 @Data
 @NoArgsConstructor
-@AllArgsConstructor
 // and make AbstractIndustry and Oilfield extend that class
 public abstract class AbstractIndustry extends AbstractPlant {
 
