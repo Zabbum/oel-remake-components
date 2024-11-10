@@ -16,6 +16,7 @@ public class DrillsIndustry extends AbstractIndustry {
     public DrillsIndustry(final String name, final Integer plantId) {
         super(name, plantId);
         this.maxProductPrice = 60000;
+        this.maxProductAmountToBuy = 10;
 
         Random random = new Random();
 
