@@ -1,9 +1,9 @@
-package com.github.zabbum.oelremakecomponents.kits;
+package com.github.zabbum.oelrlib.requests;
 
 import lombok.Data;
 
 @Data
-public class JoinKit {
+public class JoinRequest {
     private String playerName;
     private String gameId;
 }

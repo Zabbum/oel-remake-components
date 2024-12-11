@@ -1,4 +1,4 @@
-package com.github.zabbum.oelremakecomponents.game;
+package com.github.zabbum.oelrlib.game;
 
 /**
  * Current game statuses

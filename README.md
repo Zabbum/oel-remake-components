@@ -1,5 +1,5 @@
-# oel-remake-components
-Components for oel-remake
+# oelrlib
+Library for oel-remake project
 
 ## Get it as dependency
-[![](https://jitpack.io/v/Zabbum/oel-remake-components.svg)](https://jitpack.io/#Zabbum/oel-remake-components)
+[![](https://jitpack.io/v/Zabbum/oelrlib.svg)](https://jitpack.io/#Zabbum/oelrlib)

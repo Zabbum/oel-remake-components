@@ -1,11 +1,11 @@
-package com.github.zabbum.oelremakecomponents.plants.oilfield;
+package com.github.zabbum.oelrlib.plants.oilfield;
 
-import com.github.zabbum.oelremakecomponents.plants.industries.AbstractIndustry;
+import com.github.zabbum.oelrlib.plants.industries.AbstractIndustry;
 import lombok.*;
-import com.github.zabbum.oelremakecomponents.plants.AbstractPlant;
-import com.github.zabbum.oelremakecomponents.plants.industries.CarsIndustry;
-import com.github.zabbum.oelremakecomponents.plants.industries.DrillsIndustry;
-import com.github.zabbum.oelremakecomponents.plants.industries.PumpsIndustry;
+import com.github.zabbum.oelrlib.plants.AbstractPlant;
+import com.github.zabbum.oelrlib.plants.industries.CarsIndustry;
+import com.github.zabbum.oelrlib.plants.industries.DrillsIndustry;
+import com.github.zabbum.oelrlib.plants.industries.PumpsIndustry;
 
 import java.util.Random;
 

@@ -1,6 +1,6 @@
-package com.github.zabbum.oelremakecomponents.plants.industries;
+package com.github.zabbum.oelrlib.plants.industries;
 
-import com.github.zabbum.oelremakecomponents.plants.AbstractPlant;
+import com.github.zabbum.oelrlib.plants.AbstractPlant;
 import lombok.*;
 
 /**

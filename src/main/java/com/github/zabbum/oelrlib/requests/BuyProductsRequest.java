@@ -1,9 +1,9 @@
-package com.github.zabbum.oelremakecomponents.kits;
+package com.github.zabbum.oelrlib.requests;
 
 import lombok.Data;
 
 @Data
-public class BuyProductsKit {
+public class BuyProductsRequest {
     private String gameId;
     private Integer playerId;
     private String industryClassName;

@@ -1,9 +1,9 @@
-package com.github.zabbum.oelremakecomponents.kits;
+package com.github.zabbum.oelrlib.requests;
 
 import lombok.Data;
 
 @Data
-public class PlayerInfoKit {
+public class PlayerInfoRequest {
     private String gameId;
     private Integer playerId;
 }

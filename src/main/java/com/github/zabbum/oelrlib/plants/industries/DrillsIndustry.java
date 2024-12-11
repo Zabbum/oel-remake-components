@@ -1,4 +1,4 @@
-package com.github.zabbum.oelremakecomponents.plants.industries;
+package com.github.zabbum.oelrlib.plants.industries;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;

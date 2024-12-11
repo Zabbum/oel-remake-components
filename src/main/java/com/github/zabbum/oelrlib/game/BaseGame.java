@@ -1,11 +1,11 @@
-package com.github.zabbum.oelremakecomponents.game;
+package com.github.zabbum.oelrlib.game;
 
-import com.github.zabbum.oelremakecomponents.Player;
-import com.github.zabbum.oelremakecomponents.plants.AbstractPlant;
-import com.github.zabbum.oelremakecomponents.plants.industries.CarsIndustry;
-import com.github.zabbum.oelremakecomponents.plants.industries.DrillsIndustry;
-import com.github.zabbum.oelremakecomponents.plants.industries.PumpsIndustry;
-import com.github.zabbum.oelremakecomponents.plants.oilfield.Oilfield;
+import com.github.zabbum.oelrlib.Player;
+import com.github.zabbum.oelrlib.plants.AbstractPlant;
+import com.github.zabbum.oelrlib.plants.industries.CarsIndustry;
+import com.github.zabbum.oelrlib.plants.industries.DrillsIndustry;
+import com.github.zabbum.oelrlib.plants.industries.PumpsIndustry;
+import com.github.zabbum.oelrlib.plants.oilfield.Oilfield;
 import lombok.Data;
 
 import java.util.List;

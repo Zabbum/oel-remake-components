@@ -1,4 +1,4 @@
-package com.github.zabbum.oelremakecomponents;
+package com.github.zabbum.oelrlib;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

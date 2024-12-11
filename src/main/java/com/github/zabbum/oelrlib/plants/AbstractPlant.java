@@ -1,7 +1,7 @@
-package com.github.zabbum.oelremakecomponents.plants;
+package com.github.zabbum.oelrlib.plants;
 
 import lombok.*;
-import com.github.zabbum.oelremakecomponents.Player;
+import com.github.zabbum.oelrlib.Player;
 
 /**
  * Abstract plant class
