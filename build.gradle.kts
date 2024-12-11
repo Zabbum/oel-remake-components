@@ -10,18 +10,16 @@ plugins {
 
 repositories {
     mavenCentral()
-    maven {
-        url = uri("https://jitpack.io")
-    }
 }
 
 dependencies {
 }
 
 group = "com.github.Zabbum"
-version = "0.1.25"
+version = "0.1.26"
 description = "oelrlib"
 java.sourceCompatibility = JavaVersion.VERSION_17
+java.targetCompatibility = JavaVersion.VERSION_17
 
 java {
     withSourcesJar()
