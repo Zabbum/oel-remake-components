@@ -21,7 +21,7 @@ dependencies {
 group = "com.github.Zabbum"
 version = "0.1.25"
 description = "oelrlib"
-java.sourceCompatibility = JavaVersion.VERSION_21
+java.sourceCompatibility = JavaVersion.VERSION_17
 
 java {
     withSourcesJar()
