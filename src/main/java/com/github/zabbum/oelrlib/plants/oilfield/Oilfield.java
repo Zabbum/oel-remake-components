@@ -1,6 +1,7 @@
 package com.github.zabbum.oelrlib.plants.oilfield;
 
 import com.github.zabbum.oelrlib.plants.industries.AbstractIndustry;
+import com.github.zabbum.oelrlib.requests.BuyIndustryRequest;
 import lombok.*;
 import com.github.zabbum.oelrlib.plants.AbstractPlant;
 import com.github.zabbum.oelrlib.plants.industries.CarsIndustry;
