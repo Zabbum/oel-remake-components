@@ -3,7 +3,7 @@ package com.github.zabbum.oelrlib.requests;
 import lombok.Data;
 
 @Data
-public class BuyProductsRequest {
+public class BuyProductsRequest implements OelRequest {
     private String gameId;
     private Integer playerId;
     private String industryClassName;
