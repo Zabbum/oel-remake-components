@@ -16,7 +16,7 @@ dependencies {
 }
 
 group = "com.github.Zabbum"
-version = "0.1.31"
+version = "0.1.32"
 description = "oelrlib"
 java.sourceCompatibility = JavaVersion.VERSION_17
 java.targetCompatibility = JavaVersion.VERSION_17

@@ -76,6 +76,11 @@ public class BaseGame {
     private Integer currentPlayerTurn;
 
     /**
+     * Is turn summary
+     */
+    private Boolean isTurnSummary;
+
+    /**
      * Get List with plants depending on what Class is provided
      * @param plantClass Class extending AbstractPlant that we want list made of
      * @return List of plants

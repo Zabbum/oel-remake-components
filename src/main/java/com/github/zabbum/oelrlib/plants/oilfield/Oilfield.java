@@ -68,6 +68,11 @@ public class Oilfield extends AbstractPlant {
     private int pumpsAmount;
 
     /**
+     * Should player be informed during summary that oilfield is ready to extract oil from it.
+     */
+    private Boolean shouldInfoPlayer;
+
+    /**
      * Constructor of a Plant.
      *
      * @param name Name of a plant
@@ -95,6 +100,7 @@ public class Oilfield extends AbstractPlant {
      * Method to extract oil in the oilfield.
      * This is executed every round.
      */
+    @Deprecated
     public void extractOil() {
         this.oilAvailabletoSell += 8000 * this.pumpsAmount;
         this.oilExtracted += 8000 * this.pumpsAmount;
@@ -105,6 +111,7 @@ public class Oilfield extends AbstractPlant {
      *
      * @param oilAmount amount of oil to sell
      */
+    @Deprecated
     public void sellOil(final int oilAmount) {
         this.oilAvailabletoSell -= oilAmount;
     }
@@ -113,6 +120,7 @@ public class Oilfield extends AbstractPlant {
      * Dig in the oilfield.
      * This is executed every round.
      */
+    @Deprecated
     public void dig() {
         Random random = new Random();
 
