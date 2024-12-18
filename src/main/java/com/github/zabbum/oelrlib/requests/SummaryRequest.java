@@ -13,6 +13,6 @@ import java.util.Map;
 @Data
 public class SummaryRequest implements OelRequest {
     private String gameId;
-    private String playerId;
+    private Integer playerId;
     private Map<Integer, Integer> oilfieldsOilAmountSold;
 }
